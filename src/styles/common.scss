@@ -1,0 +1,99 @@
+/* ============================================================
+   行数缩略
+============================================================ */
+.pl-line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+@for $idx from 1 to 5 {
+  .pl-line#{$idx} {
+    @if $idx > 1 { 
+      word-break: break-all; 
+    } @else {
+      word-break: nowrap;
+    }
+    -webkit-line-clamp: #{$idx};
+    }
+}
+
+/* ============================================================
+   旋转
+============================================================ */
+.ui-rotate45 {
+  transform: rotate(-45deg);
+}
+
+/* ============================================================
+   修改鼠标样式
+ ============================================================ */
+.pl-pointer {
+  cursor: pointer;
+}
+
+/* ============================================================
+   文本不可被选中
+ ============================================================ */
+.pl-unselect {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* ============================================================
+   select框美化
+ ============================================================ */
+.select-box{
+  margin-top:0px;
+  outline:none;
+  border:1px solid #BBBBBB;
+  border-radius:4px;
+  position:relative;
+}
+.select-item{
+  height:3rem;
+  -webkit-appearance:none;
+  border:none;
+  font-size:1.4rem;
+  padding:0px 10px;
+  display:block;
+  width:100%;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  background-color: #FFFFFF;
+  color:#333333;
+  border-radius:4px;
+}
+/* ============================================================
+  table表头美化
+ ============================================================ */
+ .el-table {
+  thead {
+    color: $color3;
+  }
+}
+.el-menu {
+  border-right: none !important;
+}
+
+/* 去掉input默认样式 */
+input[type="number"] {  
+  -moz-appearance:textfield;  
+} 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+input::-moz-outer-spin-button,
+input::-moz-inner-spin-button {
+    -moz-appearance: none !important;
+    margin: 0;
+}
+input::-ms-outer-spin-button,
+input::-ms-inner-spin-button {
+    -ms-appearance: none !important;
+    margin: 0;
+}

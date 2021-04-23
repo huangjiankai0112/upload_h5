@@ -1,0 +1,89 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  // -webkit-text-size-adjust: none;
+  font-size: 12px;
+  font-family: 'Roboto-Bold', 'Roboto', '微软雅黑', Arial, sans-serif;
+}
+body {
+  margin: 0 auto;
+  width: 750px;
+  min-height: 100%;
+  overflow-x: hidden;
+  background: #2C2B4A;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select {
+  -webkit-appearance: none;
+  /*屏蔽阴影*/
+  font-size: 100%;
+  font-family: inherit;
+}
+
+a,
+button,
+div {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+button {
+  border-radius: 4px;
+  border: 0;
+  box-sizing: border-box;
+  color: inherit;
+  font-size: 18px;
+  outline: 0;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+button:disabled {
+  opacity: .6;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+dt,
+form {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+
+/*image with no-border*/
+
+img {
+  font-size: 0;
+  outline: 0;
+  border: 0;
+}

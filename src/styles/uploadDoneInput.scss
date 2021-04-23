@@ -1,0 +1,144 @@
+.upload-page-info{
+  box-sizing: border-box;
+  width: 100vw;
+  min-height:100vh;
+  font-size: 40px;
+  padding: 0 20px;
+  background: #009EEB;
+  padding: 38px 30px 0 ;
+  .upload-img-cont{
+    width: 688px;
+    background: #FAF5D4;
+    border-radius: 20px;
+    border: 5px solid #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    color: #000000;
+    // 标题
+    .input-tip-title{
+      position: relative;
+      width: 540px;
+      margin: 16px 0;
+      font-size: 40px;
+      color: #000000;
+      display: flex;
+      padding-left: 10px;
+      font-size: 36px;
+      font-family: SanFranciscoText-Medium, SanFranciscoText;
+      font-weight: 500;
+      line-height: 42px;
+
+      .weight-icon{
+        color: #F04E64;
+      }
+      
+      .circle-cont{
+        box-sizing: content-box;
+        position: absolute;
+        left: -60px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 48px;
+        height: 48px;
+        background:#FFDC00 ;
+        border: 5px solid #000000;
+        border-radius: 50%;
+        font-size: 28px;
+        font-family: SanFranciscoText-Semibold, SanFranciscoText;
+        font-weight: 600;
+        color: #000000;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .receive-p{
+      box-sizing: border-box;
+      padding-left: 26px;
+      width:540px;
+      color: #F37183;
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+    .form-cont{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .title-h4{
+      width: 700px;
+      font-size: 40px;
+      margin-bottom: 20px;
+      // color: red;
+    }
+    .source-input-cont{
+      position: relative;
+      width: 100%;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      margin-bottom: 30px;
+      .input-item{
+        padding: 10px 24px; 
+        width: 540px;
+        margin-bottom:20px;
+        border-radius: 12px;
+      }
+    }
+
+    .input-phone-cont{
+      position: relative;
+      width: 540px;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      margin-bottom: 30px;
+      // border: 1px solid #dddddd;
+      border-radius: 12px;
+      .country-select{
+        // padding: 0;
+        padding:10px 10px;
+        // min-height: 88px;
+        width: 200px;
+      }
+      .phone-number-input{
+        padding: 10px 10px;
+        width: 400px;
+      }
+    }
+    // 提交按钮
+    .submit-btn{
+      box-sizing: content-box;
+      width: 540px;
+      height: 72px;
+      background: #F04E64;
+      border-radius: 12px;
+      border: 3px solid #160709;
+      font-size: 32px;
+      font-family: SanFranciscoText-Bold, SanFranciscoText;
+      font-weight: bold;
+      color: #FFFFFF;
+      line-height: 32px;
+
+    }
+
+    >img{
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+    }
+    
+  }
+
+  
+
+}
